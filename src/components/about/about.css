@@ -1,6 +1,5 @@
 .about__container {
   display: flex;
-  margin-top: 4rem;
   align-items: center;
   justify-content: center;
 }
@@ -42,6 +41,13 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+}
+
+/* CTA */
+.cta {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: left;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
