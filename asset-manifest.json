@@ -1,7 +1,7 @@
 {
-  "main.css": "/homepage/static/css/main.5ed44435.chunk.css",
-  "main.js": "/homepage/static/js/main.4bd37c00.chunk.js",
-  "main.js.map": "/homepage/static/js/main.4bd37c00.chunk.js.map",
+  "main.css": "/homepage/static/css/main.7ecea106.chunk.css",
+  "main.js": "/homepage/static/js/main.17c657b5.chunk.js",
+  "main.js.map": "/homepage/static/js/main.17c657b5.chunk.js.map",
   "static/js/1.04f46ea7.chunk.js": "/homepage/static/js/1.04f46ea7.chunk.js",
   "static/js/1.04f46ea7.chunk.js.map": "/homepage/static/js/1.04f46ea7.chunk.js.map",
   "runtime~main.js": "/homepage/static/js/runtime~main.c9f2de54.js",
@@ -14,8 +14,8 @@
   "static/media/SketchingApp.png": "/homepage/static/media/SketchingApp.bc2a06bd.png",
   "static/media/RockPaperScissors.png": "/homepage/static/media/RockPaperScissors.6e316cad.png",
   "static/media/index.css": "/homepage/static/media/bg-texture.080a64a8.png",
-  "static/css/main.5ed44435.chunk.css.map": "/homepage/static/css/main.5ed44435.chunk.css.map",
+  "static/css/main.7ecea106.chunk.css.map": "/homepage/static/css/main.7ecea106.chunk.css.map",
   "index.html": "/homepage/index.html",
-  "precache-manifest.3f646754b1c9399a266ff5048d215e07.js": "/homepage/precache-manifest.3f646754b1c9399a266ff5048d215e07.js",
+  "precache-manifest.e7e1ed09315fcc61df2a50470758290e.js": "/homepage/precache-manifest.e7e1ed09315fcc61df2a50470758290e.js",
   "service-worker.js": "/homepage/service-worker.js"
 }
