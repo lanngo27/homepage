@@ -14,11 +14,11 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            I am a software engineer looking for a Full Stack developer
-            position. I specialize in JavaScript and have professional
-            experience working with C# and Python. I am enthusiastic about new
-            technologies and love solving problems. Take a look at my work and
-            get in touch!
+            I am a software engineer looking for opportunities in both frontend
+            and backend development. I am proficient in JavaScript, HTML, CSS
+            and have in addition professional experience working with C# and
+            Python. I am enthusiastic about new technologies and love solving
+            problems. Take a look at my work and get in touch!
           </p>
 
           <div className="cta">
