@@ -13,7 +13,13 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <p>Test</p>
+          <p>
+            I am a software engineer looking for a Full Stack developer
+            position. I specialize in JavaScript and have professional
+            experience working with C# and Python. I am enthusiastic about new
+            technologies and love solving problems. Take a look at my work and
+            get in touch!
+          </p>
 
           <a href="#contact" className="btn btn-primary">
             Let's talk

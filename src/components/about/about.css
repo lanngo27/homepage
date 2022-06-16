@@ -1,6 +1,8 @@
 .about__container {
-  margin-top: 4rem;
   display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* IMAGE */
@@ -11,8 +13,8 @@
 
 .about__me-image {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 22rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -34,6 +36,7 @@
   align-items: left;
   justify-content: center;
   flex-direction: column;
+  width: 40rem;
 }
 
 .about__content p {
