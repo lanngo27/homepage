@@ -1,6 +1,5 @@
-import React from 'react'
-import './header.css'
-import HeaderSocials from './HeaderSocials'
+import './header.css';
+import HeaderSocials from './HeaderSocials';
 
 const Header = () => {
   return (
@@ -15,7 +14,7 @@ const Header = () => {
         </a>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

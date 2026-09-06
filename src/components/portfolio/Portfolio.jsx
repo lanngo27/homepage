@@ -1,11 +1,10 @@
-import React from 'react'
-import './portfolio.css'
-import LibraryGraphQL from '../../assets/LibraryGraphQL.png'
-import Bloglist from '../../assets/Bloglist.png'
-import Library from '../../assets/Library.png'
-import Calculator from '../../assets/Calculator.png'
-import SketchingApp from '../../assets/SketchingApp.png'
-import RockPaperScissors from '../../assets/RockPaperScissors.png'
+import './portfolio.css';
+import Bloglist from '../../assets/Bloglist.png';
+import Calculator from '../../assets/Calculator.png';
+import Library from '../../assets/Library.png';
+import LibraryGraphQL from '../../assets/LibraryGraphQL.png';
+import RockPaperScissors from '../../assets/RockPaperScissors.png';
+import SketchingApp from '../../assets/SketchingApp.png';
 
 const data = [
   {
@@ -56,7 +55,7 @@ const data = [
     demo: 'https://lanngo27.github.io/rock-paper-scissors/',
     tech: 'Javascript, HTML, CSS'
   }
-]
+];
 
 const Portfolio = () => {
   return (
@@ -82,11 +81,11 @@ const Portfolio = () => {
                 </a>
               </div>
             </article>
-          )
+          );
         })}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

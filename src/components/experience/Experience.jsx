@@ -1,6 +1,5 @@
-import React from 'react'
-import './experience.css'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import './experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 const Experience = () => {
   return (
@@ -116,7 +115,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

@@ -1,5 +1,4 @@
-import React from 'react'
-import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const HeaderSocials = () => {
   return (
@@ -11,7 +10,7 @@ const HeaderSocials = () => {
         <BsGithub />
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default HeaderSocials
+export default HeaderSocials;

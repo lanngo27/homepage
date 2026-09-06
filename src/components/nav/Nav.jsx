@@ -1,12 +1,11 @@
-import React from 'react'
-import './nav.css'
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
-import { BiBook, BiMessageSquareDetail } from 'react-icons/bi'
-import { RiPagesLine } from 'react-icons/ri'
-import { useState } from 'react'
+import './nav.css';
+import { useState } from 'react';
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
+import { RiPagesLine } from 'react-icons/ri';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
       <a
@@ -45,7 +44,7 @@ const Nav = () => {
         <BiMessageSquareDetail />
       </a>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

@@ -1,6 +1,5 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/me.png'
+import './about.css';
+import ME from '../../assets/me.png';
 
 const About = () => {
   return (
@@ -36,7 +35,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -1,6 +1,5 @@
-import React from 'react'
-import './footer.css'
-import { RiLinkedinFill, RiGithubFill } from 'react-icons/ri'
+import './footer.css';
+import { RiGithubFill, RiLinkedinFill } from 'react-icons/ri';
 
 const Footer = () => {
   return (
@@ -32,7 +31,7 @@ const Footer = () => {
         </a>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

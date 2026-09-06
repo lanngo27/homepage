@@ -1,27 +1,28 @@
-import React, { useState, useRef } from 'react'
-import './contact.css'
-import { MdOutlineEmail } from 'react-icons/md'
-import emailjs from '@emailjs/browser'
-require('dotenv').config()
+import { useRef, useState } from 'react';
+import './contact.css';
+import emailjs from '@emailjs/browser';
+import { MdOutlineEmail } from 'react-icons/md';
 
 const Contact = () => {
-  const form = useRef()
-  const [message, setMessage] = useState(null)
+  const form = useRef();
+  const [message, setMessage] = useState(null);
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     emailjs.sendForm(
       process.env.REACT_APP_EMAILJS_SERVICE,
       process.env.REACT_APP_EMAILJS_TEMPLATE,
       form.current,
-      process.env.REACT_APP_EMAILJS_KEY
-    )
-    e.target.reset()
+      {
+        publicKey: process.env.REACT_APP_EMAILJS_KEY
+      }
+    );
+    e.target.reset();
 
-    setMessage('Your message is sent!')
-    setTimeout(() => setMessage(null), 5000)
-  }
+    setMessage('Your message is sent!');
+    setTimeout(() => setMessage(null), 5000);
+  };
   return (
     <section id="contact">
       <h5>Get in touch</h5>
@@ -58,7 +59,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
